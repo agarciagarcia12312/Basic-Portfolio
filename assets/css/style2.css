@@ -4,6 +4,7 @@
 
 #all {
 	width: 1000px;
+	height: auto;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -111,10 +112,41 @@ li {
 	margin-left: 10%;
 	background-color: none;
 }
+/*media queries for phones*/
+@media only screen and (max-width: 600px) {
+	#connect {
+		position: relative;
+		left: 0px;
+		top: -300px;
+		width:100%;
+		height: auto;
+	}
+	#andy
+	#p1, #p2, #my_pic {
+		position: static;
+		height: auto;
+		width: 100%;
+	}
+	#portfolio, .container{
+	clear: both;
+	height: auto;
+	width:100%;
+	margin-left: 0px;
+	 }
+	#all {
+		height: 600px;
+	}
+	#f, .foot {
+		width: 100%;
+		height: 1300px;
+	}
+	body {background-color: black;}
+	.pp{margin-left: 70px;}
+
+}
 h2 {
 	color:white;
 	margin-left: 30px;
-
 }
 h3 {
 	color: white;
@@ -136,7 +168,7 @@ footer {
 .foot {
 	position: relative;
 }
-#f {
+#f {  /* background pic*/
 	width: 100%;
 	height: 800px;
 	opacity: .85;
